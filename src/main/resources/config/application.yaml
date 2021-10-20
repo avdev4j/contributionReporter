@@ -18,9 +18,9 @@ logging:
 
 #https://medium.com/devops-dudes/securing-spring-boot-rest-apis-with-keycloak-1d760b2004e
 keycloak:
-  auth-url: http://CHANGE-IT/auth
-  client-id: CHANGE-IT-USING-KC
-  client-secret: CHANGE-IT-USING-KC
+  auth-url: http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/auth
+  client-id: web-app
+  client-secret: web-app
   ssl-required: none
   auth-server-url: ${keycloak.auth-url}
   bearer-only: true
