@@ -4,7 +4,17 @@ import {useState} from "react";
 function App() {
     const [payload, setPayload] = useState("")
     async function callTheApi() {
-        setPayload((await getData()).data.payload)
+        const response = (await getData());
+        setPayload(response.data)
+    }
+    function _renderData(data) {
+       if(data) {
+            return Object.entries(data).map(([key,value])=>{
+              return (
+                  <div>{key} : {value.toString()}</div>
+              );
+            })
+        }
     }
 
     return (
@@ -13,7 +23,8 @@ function App() {
                 <button onClick={callTheApi}>call the api</button>
             </div>
             <div>
-                <span>{payload}</span>
+                <span>{payload.name}</span>
+                <span>{_renderData(payload.data)}</span>
             </div>
         </>
     )
