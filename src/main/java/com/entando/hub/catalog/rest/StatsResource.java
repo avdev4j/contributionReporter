@@ -20,10 +20,10 @@ public class StatsResource {
         data.put("April", 105);
         data.put("May", 28);
         data.put("June", 84);
-        data.put("July", 152);
+        data.put("July", 114);
         data.put("August", 3);
         data.put("September", 67);
-        data.put("October", 120);
+        data.put("October", 118);
         data.put("November", 10);
         data.put("December", 29);
 
