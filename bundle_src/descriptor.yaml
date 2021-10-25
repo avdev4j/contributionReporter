@@ -3,6 +3,3 @@ description: App to report contributions on GitHub for the CodeMotion presentati
 components:
   plugins:
     - plugins/entando-contributionReporter-plugin.yaml
-  widgets:
-    - ui/widgets/widgets-dir/et-widget/et-widget-descriptor.yaml
-
