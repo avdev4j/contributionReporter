@@ -1,7 +1,7 @@
 image: avdev4j/contributionReporter
 dbms: none
-ingressPath: "/entando-template-api"
+ingressPath: "/contribution-reporter"
 healthCheckPath: "/actuator/health"
 roles:
-  - "et-first-role"
-  - "et-second-role"
+  - "admin"
+  - "user"
