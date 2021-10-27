@@ -1,4 +1,4 @@
-image: avdev4j/contributionreporter
+image: avdev4j/contributionreporter:0.0.1-SNAPSHOT
 dbms: none
 ingressPath: "/contribution-reporter"
 healthCheckPath: "/actuator/health"
