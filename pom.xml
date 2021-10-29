@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.entando</groupId>
-    <artifactId>contributionreporter</artifactId>
+    <artifactId>salesreporting</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>Template for an ent compatible project</description>
     <properties>

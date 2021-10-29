@@ -1,5 +1,5 @@
-code: contribution-reporter
-description: App to report contributions on GitHub for the CodeMotion presentation
+code: sales-reporting
+description: App to report sales done by My Company. Sample app for the CodeMotion live talk.
 components:
   plugins:
-    - plugins/entando-contributionReporter-plugin.yaml
+    - plugins/salesReporting-plugin.yaml

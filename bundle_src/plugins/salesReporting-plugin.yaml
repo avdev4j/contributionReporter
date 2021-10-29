@@ -1,0 +1,7 @@
+image: avdev4j/salesreporting:0.0.1-SNAPSHOT
+dbms: none
+ingressPath: "/sales-reporting"
+healthCheckPath: "/actuator/health"
+roles:
+  - "admin"
+  - "user"
