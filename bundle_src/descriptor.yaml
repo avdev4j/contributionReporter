@@ -1,5 +1,5 @@
 code: sales-reporting
-description: App to report sales done by My Company. Sample app for the CodeMotion live talk.
+description: App to report sales made by My Company. Sample app for the CodeMotion live talk.
 components:
   plugins:
     - plugins/salesReporting-plugin.yaml
