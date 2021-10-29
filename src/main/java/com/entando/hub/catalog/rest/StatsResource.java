@@ -11,23 +11,23 @@ import java.util.Map;
 @RequestMapping("/api/stats")
 public class StatsResource {
     @CrossOrigin
-    @GetMapping("/commits")
-    public Stats getCommits() {
+    @GetMapping("/sales")
+    public Stats getSales() {
         Map<String, Integer> data = new LinkedHashMap<>();
-        data.put("January", 89);
-        data.put("February", 53);
-        data.put("March", 17);
-        data.put("April", 105);
-        data.put("May", 28);
-        data.put("June", 84);
-        data.put("July", 114);
-        data.put("August", 3);
-        data.put("September", 67);
-        data.put("October", 118);
-        data.put("November", 10);
-        data.put("December", 29);
+        data.put("January", 89000);
+        data.put("February", 53000);
+        data.put("March", 17000);
+        data.put("April", 105000);
+        data.put("May", 28000);
+        data.put("June", 84000);
+        data.put("July", 114000);
+        data.put("August", 3000);
+        data.put("September", 67000);
+        data.put("October", 118000);
+        data.put("November", 10000);
+        data.put("December", 29000);
 
-        return new Stats("Commits", data);
+        return new Stats("Sales", data);
     }
 
     @Data
